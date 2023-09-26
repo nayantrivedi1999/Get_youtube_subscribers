@@ -36,7 +36,7 @@ app.get("/subscribers/:id", async (req, res) => {
         res.status(200).send(subscribers);
     } catch (error) {
         res.status(400).send({
-            message: error.message
+           Error_message: "No subscriber found related to this id."
         })
     }
 })
