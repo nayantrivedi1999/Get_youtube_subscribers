@@ -6,7 +6,7 @@ const app = express();
 
 //routes
 
-//api to render html file. || GET METHOD
+//api to render html file || GET METHOD
 app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname, "index.html"));
 });
