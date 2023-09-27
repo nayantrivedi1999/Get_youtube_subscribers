@@ -19,3 +19,46 @@ Before running this application, you must have the following softwares:
 Node.js https://nodejs.org/en
 
 MongoDB https://www.mongodb.com/try/download/shell
+
+## **How To Run Locally**
+- To run this project locally, use the following command in your CLI:
+
+1. Clone this repository:
+
+```bash
+ git clone https://github.com/SakshamAgrawall/Get_Youtube_subscribers.git
+```
+
+2. Install dependencies:
+
+```bash
+ npm i
+```
+
+3. Create a .env file and add monogodb uri
+
+4. Create a database:
+
+```bash
+cd src
+node createDatabase.js
+```
+
+5. Start the application:
+
+```bash
+ npm run start
+```
+- Go to any Browser and search localhost:3000
+
+## Characteristics
+
+- User can get the all subscribers.
+- User can get the all subscriber with only name and subscribedchannel.
+- user can get the subscriber by id.
+
+## 🛠 Skills
+ MongoDB | Nodejs | express | Mongoose
+ 
+## NOTE 
+ This capstone project is associated with <a href="https://www.almabetter.com">Almabetter</a>
